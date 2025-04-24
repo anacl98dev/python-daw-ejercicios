@@ -1,4 +1,4 @@
-# 🧺 [InventarioProductos.py](./InventarioProductos.py)
+# 🧺 [Inventario de productos](./InventarioProductos.py)
 
 Ejercicio práctico para gestionar un inventario de productos utilizando listas, diccionarios y funciones en Python. Se trabaja con entrada de datos, validación, estructuras condicionales y un menú interactivo.
 
