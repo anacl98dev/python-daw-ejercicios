@@ -1,7 +1,6 @@
 # Creamos una lista vacía llamada 'inventario' donde se guardarán los productos.
 # Cada producto será un diccionario con su nombre, precio y cantidad.
 inventario = []
-inventario = []
 
 # La palabra clave 'def' se usa para definir una función en Python.
 # Una función es un bloque de código reutilizable que se ejecuta cuando se llama por su nombre.
