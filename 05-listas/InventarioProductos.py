@@ -53,10 +53,10 @@ def mostrar_menu():
     print("4. Salir")
 
 # Bucle principal que se ejecuta mientras el usuario no elija la opción de salir.
-# La variable 'terminado' controla si el programa debe continuar o finalizar.
+# La variable 'ejecutando' controla si el programa debe continuar o finalizar.
 def main():
-    terminado = False
-    while terminado:
+    ejecutando = True
+    while ejecutando:
         mostrar_menu()
         opcion = input("Elija una opción:")
         if opcion == '1':
@@ -67,7 +67,7 @@ def main():
             calcular_valor_total()
         elif opcion == '4':
             print("Saliendo del programa...")
-            terminado = True
+            ejecutando = False
         else:
             print("Opción no válida")
 
